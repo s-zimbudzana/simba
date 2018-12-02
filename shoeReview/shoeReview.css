@@ -12,7 +12,6 @@ body
 h1, h2, h3, h4, h5, h6 
 { 
 	letter-spacing: 0em;
-	padding: 0 0 5px 0;
 }
 
 h1, h2, h3
@@ -24,23 +23,16 @@ h1, h2, h3
 h2
 { 
 	font-size: 160%;
-	padding: 10px 0 5px 0;
 }
 
 h3
 { 
 	font-size: 140%;
-	padding: 5px 0 0 0;
 }
 
-h4, h6
+h4
 { 
-	padding: 0 0 5px 0;
-}
-
-h5, h6
-{
-	padding: 0 0 15px 0;
+	font-size: 120%;
 }
 
 p
@@ -104,7 +96,7 @@ table
 #pageLayout th
 {
 	text-align: center;
-	padding: 15px;
+	padding: 30px 15px;
 }
 
 #pageLayout td
@@ -190,5 +182,12 @@ table
 
 .reviewedShoeNameAndRating
 {
-    font-size: 160%;
+    font-size: 135%;
+    text-align: center;
+}
+
+.subheading
+{
+    font-size: 180%;
+    text-align: center;
 }
